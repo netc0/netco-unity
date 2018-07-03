@@ -609,8 +609,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1062811755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 857, y: 453, z: 0}
-  m_LocalScale: {x: 1.2848576, y: 1.2848576, z: 1.2848576}
+  m_LocalPosition: {x: 756, y: 453, z: 0}
+  m_LocalScale: {x: 1.1334333, y: 1.1334333, z: 1.1334333}
   m_Children:
   - {fileID: 1468467611}
   - {fileID: 218388918}
@@ -633,6 +633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144831226}
   - component: {fileID: 1144831227}
+  - component: {fileID: 1144831228}
   m_Layer: 0
   m_Name: LoginController
   m_TagString: Untagged
@@ -659,7 +660,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1144831225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 888545fb111a74d1fa5e149523d71828, type: 3}
   m_Name: 
@@ -667,6 +668,17 @@ MonoBehaviour:
   networkState: {fileID: 1468467612}
   LogText: {fileID: 1894064254}
   ipInputField: {fileID: 2120832628}
+--- !u!114 &1144831228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1144831225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a14cca8d84b54faf87ef568192cf0b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1244031400
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +765,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1468467610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -492.99994, y: 313.56824, z: 0}
+  m_LocalPosition: {x: -492.99994, y: 360.67062, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1062811759}
@@ -827,7 +839,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1894064252}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -150.79993, y: -63.331757, z: 0}
+  m_LocalPosition: {x: -150.79993, y: -16.22937, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1062811759}
