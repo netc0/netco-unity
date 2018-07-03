@@ -32,7 +32,7 @@ public class MainThreadHandler : MonoBehaviour {
             actions.Clear();
         }
 
-        foreach (var item in actions) {
+        foreach (var item in invokes) {
             try {
                 item.Invoke();
             } catch (Exception e) {
